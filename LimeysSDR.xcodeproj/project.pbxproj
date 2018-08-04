@@ -10,17 +10,77 @@
 		5F760E842114E806007A8482 /* LimeysSDR.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5F760E832114E806007A8482 /* LimeysSDR.hpp */; };
 		5F760E862114E806007A8482 /* LimeysSDRPriv.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5F760E852114E806007A8482 /* LimeysSDRPriv.hpp */; };
 		5F760E882114E806007A8482 /* LimeysSDR.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F760E872114E806007A8482 /* LimeysSDR.cpp */; };
+		5F760E902114E833007A8482 /* DeviceCaps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F760E8E2114E833007A8482 /* DeviceCaps.cpp */; };
+		5F760E912114E833007A8482 /* DeviceCaps.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5F760E8F2114E833007A8482 /* DeviceCaps.hpp */; };
+		5F760E942114E86A007A8482 /* libSoapySDR.0.6.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F760E932114E86A007A8482 /* libSoapySDR.0.6.1.dylib */; };
+		5F760EC02114ECF0007A8482 /* Loggable.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F760EBE2114ECF0007A8482 /* Loggable.cpp */; };
+		5F760EC12114ECF0007A8482 /* Loggable.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5F760EBF2114ECF0007A8482 /* Loggable.hpp */; };
+		5F760ED92114F2E9007A8482 /* Util.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5F760ED72114F2E9007A8482 /* Util.hpp */; };
+		5F760EDC211516AD007A8482 /* LimeysSDRDevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F760EDA211516AD007A8482 /* LimeysSDRDevice.cpp */; };
+		5F760EDD211516AD007A8482 /* LimeysSDRDevice.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 5F760EDB211516AD007A8482 /* LimeysSDRDevice.hpp */; };
+		5F760EE521151783007A8482 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5F760EE421151783007A8482 /* main.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5F760EE021151783007A8482 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5F760E802114E806007A8482 /* libLimeysSDR.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libLimeysSDR.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F760E832114E806007A8482 /* LimeysSDR.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LimeysSDR.hpp; sourceTree = "<group>"; };
 		5F760E852114E806007A8482 /* LimeysSDRPriv.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LimeysSDRPriv.hpp; sourceTree = "<group>"; };
 		5F760E872114E806007A8482 /* LimeysSDR.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LimeysSDR.cpp; sourceTree = "<group>"; };
+		5F760E8E2114E833007A8482 /* DeviceCaps.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = DeviceCaps.cpp; sourceTree = "<group>"; };
+		5F760E8F2114E833007A8482 /* DeviceCaps.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = DeviceCaps.hpp; sourceTree = "<group>"; };
+		5F760E932114E86A007A8482 /* libSoapySDR.0.6.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSoapySDR.0.6.1.dylib; path = ../../../../usr/local/Cellar/soapysdr/0.6.1/lib/libSoapySDR.0.6.1.dylib; sourceTree = "<group>"; };
+		5F760E962114E8EC007A8482 /* Time.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Time.h; sourceTree = "<group>"; };
+		5F760E972114E8EC007A8482 /* Logger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Logger.hpp; sourceTree = "<group>"; };
+		5F760E982114E8EC007A8482 /* Errors.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Errors.hpp; sourceTree = "<group>"; };
+		5F760E992114E8EC007A8482 /* Version.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Version.h; sourceTree = "<group>"; };
+		5F760E9A2114E8EC007A8482 /* Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Device.h; sourceTree = "<group>"; };
+		5F760E9B2114E8EC007A8482 /* Formats.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Formats.h; sourceTree = "<group>"; };
+		5F760E9C2114E8EC007A8482 /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		5F760E9D2114E8EC007A8482 /* Time.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Time.hpp; sourceTree = "<group>"; };
+		5F760E9E2114E8EC007A8482 /* Types.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Types.h; sourceTree = "<group>"; };
+		5F760E9F2114E8EC007A8482 /* Registry.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Registry.hpp; sourceTree = "<group>"; };
+		5F760EA02114E8EC007A8482 /* Errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Errors.h; sourceTree = "<group>"; };
+		5F760EA12114E8EC007A8482 /* Config.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Config.hpp; sourceTree = "<group>"; };
+		5F760EA22114E8EC007A8482 /* Version.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Version.hpp; sourceTree = "<group>"; };
+		5F760EA32114E8EC007A8482 /* Modules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Modules.h; sourceTree = "<group>"; };
+		5F760EA42114E8EC007A8482 /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5F760EA52114E8EC007A8482 /* Device.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Device.hpp; sourceTree = "<group>"; };
+		5F760EA62114E8EC007A8482 /* Modules.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Modules.hpp; sourceTree = "<group>"; };
+		5F760EA72114E8EC007A8482 /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
+		5F760EA82114E8EC007A8482 /* Types.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Types.hpp; sourceTree = "<group>"; };
+		5F760EA92114E8EC007A8482 /* Formats.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Formats.hpp; sourceTree = "<group>"; };
+		5F760EBE2114ECF0007A8482 /* Loggable.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Loggable.cpp; sourceTree = "<group>"; };
+		5F760EBF2114ECF0007A8482 /* Loggable.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Loggable.hpp; sourceTree = "<group>"; };
+		5F760ED62114F2E9007A8482 /* Util.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Util.cpp; sourceTree = "<group>"; };
+		5F760ED72114F2E9007A8482 /* Util.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Util.hpp; sourceTree = "<group>"; };
+		5F760EDA211516AD007A8482 /* LimeysSDRDevice.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = LimeysSDRDevice.cpp; sourceTree = "<group>"; };
+		5F760EDB211516AD007A8482 /* LimeysSDRDevice.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LimeysSDRDevice.hpp; sourceTree = "<group>"; };
+		5F760EE221151783007A8482 /* LimeysSDREnum */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LimeysSDREnum; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F760EE421151783007A8482 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		5F760E7D2114E806007A8482 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F760E942114E86A007A8482 /* libSoapySDR.0.6.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F760EDF21151783007A8482 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -34,7 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				5F760E822114E806007A8482 /* LimeysSDR */,
+				5F760EE321151783007A8482 /* LimeysSDREnum */,
 				5F760E812114E806007A8482 /* Products */,
+				5F760E922114E86A007A8482 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -42,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				5F760E802114E806007A8482 /* libLimeysSDR.dylib */,
+				5F760EE221151783007A8482 /* LimeysSDREnum */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -52,8 +115,61 @@
 				5F760E832114E806007A8482 /* LimeysSDR.hpp */,
 				5F760E852114E806007A8482 /* LimeysSDRPriv.hpp */,
 				5F760E872114E806007A8482 /* LimeysSDR.cpp */,
+				5F760E8E2114E833007A8482 /* DeviceCaps.cpp */,
+				5F760E8F2114E833007A8482 /* DeviceCaps.hpp */,
+				5F760EBE2114ECF0007A8482 /* Loggable.cpp */,
+				5F760EBF2114ECF0007A8482 /* Loggable.hpp */,
+				5F760ED62114F2E9007A8482 /* Util.cpp */,
+				5F760ED72114F2E9007A8482 /* Util.hpp */,
+				5F760EDA211516AD007A8482 /* LimeysSDRDevice.cpp */,
+				5F760EDB211516AD007A8482 /* LimeysSDRDevice.hpp */,
 			);
 			path = LimeysSDR;
+			sourceTree = "<group>";
+		};
+		5F760E922114E86A007A8482 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5F760E952114E8EC007A8482 /* SoapySDR */,
+				5F760E932114E86A007A8482 /* libSoapySDR.0.6.1.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5F760E952114E8EC007A8482 /* SoapySDR */ = {
+			isa = PBXGroup;
+			children = (
+				5F760E962114E8EC007A8482 /* Time.h */,
+				5F760E972114E8EC007A8482 /* Logger.hpp */,
+				5F760E982114E8EC007A8482 /* Errors.hpp */,
+				5F760E992114E8EC007A8482 /* Version.h */,
+				5F760E9A2114E8EC007A8482 /* Device.h */,
+				5F760E9B2114E8EC007A8482 /* Formats.h */,
+				5F760E9C2114E8EC007A8482 /* Config.h */,
+				5F760E9D2114E8EC007A8482 /* Time.hpp */,
+				5F760E9E2114E8EC007A8482 /* Types.h */,
+				5F760E9F2114E8EC007A8482 /* Registry.hpp */,
+				5F760EA02114E8EC007A8482 /* Errors.h */,
+				5F760EA12114E8EC007A8482 /* Config.hpp */,
+				5F760EA22114E8EC007A8482 /* Version.hpp */,
+				5F760EA32114E8EC007A8482 /* Modules.h */,
+				5F760EA42114E8EC007A8482 /* Constants.h */,
+				5F760EA52114E8EC007A8482 /* Device.hpp */,
+				5F760EA62114E8EC007A8482 /* Modules.hpp */,
+				5F760EA72114E8EC007A8482 /* Logger.h */,
+				5F760EA82114E8EC007A8482 /* Types.hpp */,
+				5F760EA92114E8EC007A8482 /* Formats.hpp */,
+			);
+			name = SoapySDR;
+			path = ../../../../usr/local/Cellar/soapysdr/0.6.1/include/SoapySDR;
+			sourceTree = "<group>";
+		};
+		5F760EE321151783007A8482 /* LimeysSDREnum */ = {
+			isa = PBXGroup;
+			children = (
+				5F760EE421151783007A8482 /* main.cpp */,
+			);
+			path = LimeysSDREnum;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -64,7 +180,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5F760E862114E806007A8482 /* LimeysSDRPriv.hpp in Headers */,
+				5F760EC12114ECF0007A8482 /* Loggable.hpp in Headers */,
 				5F760E842114E806007A8482 /* LimeysSDR.hpp in Headers */,
+				5F760E912114E833007A8482 /* DeviceCaps.hpp in Headers */,
+				5F760ED92114F2E9007A8482 /* Util.hpp in Headers */,
+				5F760EDD211516AD007A8482 /* LimeysSDRDevice.hpp in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,6 +208,23 @@
 			productReference = 5F760E802114E806007A8482 /* libLimeysSDR.dylib */;
 			productType = "com.apple.product-type.library.dynamic";
 		};
+		5F760EE121151783007A8482 /* LimeysSDREnum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F760EE621151783007A8482 /* Build configuration list for PBXNativeTarget "LimeysSDREnum" */;
+			buildPhases = (
+				5F760EDE21151783007A8482 /* Sources */,
+				5F760EDF21151783007A8482 /* Frameworks */,
+				5F760EE021151783007A8482 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LimeysSDREnum;
+			productName = LimeysSDREnum;
+			productReference = 5F760EE221151783007A8482 /* LimeysSDREnum */;
+			productType = "com.apple.product-type.tool";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -98,6 +235,9 @@
 				ORGANIZATIONNAME = "Paul Ciarlo";
 				TargetAttributes = {
 					5F760E7F2114E806007A8482 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					5F760EE121151783007A8482 = {
 						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
@@ -115,6 +255,7 @@
 			projectRoot = "";
 			targets = (
 				5F760E7F2114E806007A8482 /* LimeysSDR */,
+				5F760EE121151783007A8482 /* LimeysSDREnum */,
 			);
 		};
 /* End PBXProject section */
@@ -124,7 +265,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F760EDC211516AD007A8482 /* LimeysSDRDevice.cpp in Sources */,
+				5F760EC02114ECF0007A8482 /* Loggable.cpp in Sources */,
+				5F760E902114E833007A8482 /* DeviceCaps.cpp in Sources */,
 				5F760E882114E806007A8482 /* LimeysSDR.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F760EDE21151783007A8482 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F760EE521151783007A8482 /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -182,10 +334,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -234,9 +389,12 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/local/include;
 				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
+				USER_HEADER_SEARCH_PATHS = "";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -251,6 +409,10 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/soapysdr/0.6.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
@@ -267,8 +429,30 @@
 				GCC_ENABLE_CPP_EXCEPTIONS = YES;
 				GCC_ENABLE_CPP_RTTI = YES;
 				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/soapysdr/0.6.1/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5F760EE721151783007A8482 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CXXA9F47J;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5F760EE821151783007A8482 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5CXXA9F47J;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -289,6 +473,15 @@
 			buildConfigurations = (
 				5F760E8C2114E806007A8482 /* Debug */,
 				5F760E8D2114E806007A8482 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F760EE621151783007A8482 /* Build configuration list for PBXNativeTarget "LimeysSDREnum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F760EE721151783007A8482 /* Debug */,
+				5F760EE821151783007A8482 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

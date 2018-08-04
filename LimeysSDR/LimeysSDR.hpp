@@ -9,6 +9,8 @@
 #ifndef LimeysSDR_
 #define LimeysSDR_
 
+#include "LimeysSDRDevice.hpp"
+
 /* The classes below are exported */
 #pragma GCC visibility push(default)
 
